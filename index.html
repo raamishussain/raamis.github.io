@@ -57,9 +57,8 @@
             <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
             <li><a class="smoothscroll" href="#about">About</a></li>
 	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
-            <!--li><a class="smoothscroll" href="#portfolio">Hobbies</a></li-->
-            <!--li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
-            <li><a class="smoothscroll" href="#contact">Contact</a></li-->
+            <li><a class="smoothscroll" href="#projects">Projects</a></li>
+
          </ul> <!-- end #nav -->
 
       </nav> <!-- end #nav-wrap -->
@@ -250,40 +249,73 @@
 
       </div> <!-- End skills -->
 
-   </section> <!-- Resume Section End-->
+      <!-- Publications
+      ----------------------------------------------- -->
+      <div class="row skill">
 
-   <!-- Hobbies Section
-   ================================================== -->
-   <!--section id="portfolio">
-
-      <div class="row">
-
-         <div class="three columns">
-
-            <img class="profile-pic"  src="images/headshot.jpg" alt="" />
-
+         <div class="three columns header-col">
+            <h1><span>Publications</span></h1>
          </div>
 
-         <div class="twelve columns main-col">
+         <div class="nine columns main-col">
+            <li>IceCube search for neutrinos coincident with compact binary mergers from LIGO-Virgo’s First Gravitational-wave Transient Catalog. M. G. Aartsen et al 2020 ApJL 898 L10</li>
 
-            <h2>My woodworking</h2>
+            <li> Follow-up of astrophysical transients in real time with the IceCube Neutrino Observatory. R. Abbasi et al 2021 ApJ 910 4 </li>
 
-            <p>I'm Ryan Peffers. I've been working at Northrop Grumman for the past 3 years as a Software Engineer, working on projects in Python, C++, and Java. I graduated from UCSB in 2016 and since then, I've taken on working part time for Community Rowing Inc. and <a href="http://www.hoop-ball.com">Hoop Ball</a> as a web developer. In my free time, I like to do woodworking projects, make homemade pizza and pasta, and play basketball. I also still enjoy rowing after being a part of UCSB Crew for my 4 years of college. 
-            </p>
+            <li>Observing Eev neutrinos through the Earth: GZK and the anomalous ANITA events. I Safa et al. JCAP 01 (2020) 012</li>
 
-            <h2>Resume</h2>
-            <p>
-               <a href="RyanPeffersResume.pdf" class="button"><i class="fa fa-download"></i>Download</a>
-            </p>
+            <li>A search for IceCube neutrinos from the first 33 detected gravitational wave events. R Hussain et al. Proceedings of Science (ICRC 2019) 918. arXiv:1908.07706</li>
 
-         </div> 
+            <li>Constraining anomalous EeV ANITA detections with PeV neutrinos. I Safa et al. Proceedings of Science (ICRC 2019) 995</li>
+            
 
-      </div--> <!--row end-->
+         </div> <!-- main-col end -->
 
-   <!--/section--> <!-- About Section End-->
+      </div> <!-- End publications -->
 
-   <!-- footer
+   </section> <!-- Resume Section End-->
+
+   <!-- Projects Section
    ================================================== -->
+   <section id="projects">
+
+      ----------------------------------------------- -->
+      <div class="row skills">
+
+         <div class="three columns header-col">
+            <h1><span>Projects</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+            <h3>Titanic Survivors Classifier</h3>
+
+            <li>In this project I present a solution to the famous Titanic survivors dataset on <a href='https://www.kaggle.com/c/titanic/data'>Kaggle</a>. I build and train a logistic regression model with Tensorflow to predict which passengers will survive the sinking of the Titanic. The model achieves 86&percnt; accuracy on the test dataset.</li>
+            <li>https://github.com/raamishussain/tensorflow_exercises/tree/main/Titanic</li>
+
+            <h3>Fashion Image Classification</h3>
+
+            <li>In this project I use a deep neural network to classify images of clothes in the MNIST Fashion dataset. The dataset includes images of 10 different articles of clothing such as sneakers, shirts, pants, etc. Each image is a 28x28 pixel image with greyscale values in each pixel. The classifier achieves an average accuracy of around 88&percnt; with some individual classes having up to 9886&percnt; accuracy. </li>
+            <li>https://github.com/raamishussain/tensorflow_exercises/tree/main/Classification</li>
+
+            <h3>Housing Price Predictor</h3>
+
+            <li>In this project I use present a solution to the <a href='https://www.kaggle.com/c/house-prices-advanced-regression-techniques'>advanced housing regression dataset</a> available on Kaggle. I build and train a random forest regressor using Scitkit-learn as well as a deep neural network with Tensorflow and compare both models. The random forest regressor performs better on training data with fewer outliers than the DNN.</li> 
+
+            <li>https://github.com/raamishussain/kaggle_housing_prediction</li>
+
+            <h3>Apple Stock Price Predictor</h3>
+
+            <li>In this project I use attempt to predict Apple's stock price using a Recurrent neural network (RNN) with Tensorflow. I use several years of open and closing stock price data from Yahoo Finance. Using the closing price and the logarithmic returns, I train the RNN to predict the next day's closing price. The model performs decently well initially but starts to deviate from the true closing price when attempting to predict further into the future. This behavior is expected since the model is only trained to predict the following day's stock price and not weeks or months of closing prices.</li> 
+
+            <li>https://github.com/raamishussain/tensorflow_exercises/tree/main/RNN</li>
+            
+         </div> <!-- main-col end -->
+
+      </div> <!-- Projects End-->
+
+   </section> <!-- Projects Section End-->
+
+
    <footer>
 
       <div class="row">
